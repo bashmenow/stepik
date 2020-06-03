@@ -34,4 +34,3 @@ class multifilter:
                     neg += 1
             if self.judge(pos, neg):
                 yield i
-

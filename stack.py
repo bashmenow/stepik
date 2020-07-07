@@ -1,5 +1,3 @@
-
-
 class ExtendedStack(list):
     def sum(self):
         self.append(self.pop() + self.pop())
@@ -12,4 +10,3 @@ class ExtendedStack(list):
 
     def div(self):
         self.append(self.pop() // self.pop())
-
